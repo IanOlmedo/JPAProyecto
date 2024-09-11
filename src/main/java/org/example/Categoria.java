@@ -12,7 +12,7 @@ public class Categoria implements Serializable {
     private Long id;
 
     private String denominacion;
-// NO PERMITO EL REMOVE
+   // No Remove
    @ManyToMany(mappedBy = "categorias")
     private Set<Articulo> articulos = new HashSet<>();
 

@@ -17,7 +17,6 @@ public class Articulo implements Serializable {
     private String denominacion;
     private int precio;
 
-
     @ManyToMany(cascade = {CascadeType.PERSIST,CascadeType.MERGE})
     @JoinTable(name = "articulo_categoria",
             joinColumns = @JoinColumn(name = "articulo_id"),

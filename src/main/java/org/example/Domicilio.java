@@ -47,5 +47,4 @@ public class Domicilio implements Serializable {
     }
 
 
-
 }
